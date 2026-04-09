@@ -83,15 +83,5 @@ for i in range(6):
 plt.tight_layout()
 plt.show()
 
-# -------------------------------
-# SAVE OUTPUT IMAGES
-# -------------------------------
-plt.imsave("Image_A_horizontal.png", image_A, cmap='gray')
-plt.imsave("Image_B_vertical.png", image_B, cmap='gray')
-plt.imsave("Addition_AB.png", add_AB, cmap='gray')
-plt.imsave("Subtraction_AB.png", sub_AB, cmap='gray')
-plt.imsave("Multiplication_AB.png", mul_AB, cmap='gray')
-plt.imsave("Average_AB.png", avg_AB, cmap='gray')
-
 print("All images generated and saved successfully.")
 
